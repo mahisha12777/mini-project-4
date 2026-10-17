@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-image: url("imag.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-position: center; */
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+}
+
+#cityname {
+  width: 500px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 20px;
+  color: rgb(2, 2, 2);
+  background-color: rgba(0, 0, 0, 0.027);
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  background-color: rgb(233, 167, 167);
+  border-radius: 5px;
+}
+
+#boxes {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 40px;
+}
+.container {
+  /*background-color: rgb(170, 197, 221); */
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(210, 150, 150);
+}
+.container:nth-of-type(1) {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container:nth-of-type(2) {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container:nth-of-type(3) {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container:nth-of-type(4) {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container:nth-of-type(5) {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container:nth-of-type(6) {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blur {
+  font-style: italic;
+  backdrop-filter: blur(2px);
+  width: 90%;
+  height: 90%;
+  border: 1px solid black;
+}
+
+main {
+  box-shadow: 2px 3px 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.location {
+  font-size: 50px;
+}
